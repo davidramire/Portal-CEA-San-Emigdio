@@ -27,7 +27,7 @@ function App() {
       <div className="p-8 rounded-lg bg-white/5">
         <button 
           onClick={() => setCount((count) => count + 1)}
-          className="rounded-lg px-5 py-2.5 bg-primary hover:bg-primary/90 transition-colors"
+          className="btn bg-primary hover:bg-primary/90"
         >
           count is {count}
         </button>
